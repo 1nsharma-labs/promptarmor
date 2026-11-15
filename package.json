@@ -1,0 +1,36 @@
+{
+  "name": "@1nsharma-labs/promptarmor",
+  "version": "1.0.0",
+  "description": "The Open-Source Prompt Injection, Jailbreak & LLM Guardrail Firewall",
+  "main": "core/src/scanner/engine.js",
+  "bin": {
+    "promptarmor": "core/src/scanner/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node core/src/scanner/cli.js",
+    "inspect": "node core/src/scanner/cli.js inspect",
+    "test": "node test/test_promptarmor.js"
+  },
+  "keywords": [
+    "prompt-injection",
+    "jailbreak-prevention",
+    "llm-guardrails",
+    "ai-security",
+    "prompt-firewall",
+    "owasp-llm-top-10",
+    "openai",
+    "anthropic",
+    "gemini",
+    "open-source"
+  ],
+  "author": "1nsharma-labs",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1nsharma-labs/promptarmor.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
